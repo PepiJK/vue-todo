@@ -1,5 +1,5 @@
 <template>
-    <h1 class="todo-heading">Angular-Todo</h1>
+    <h1 class="todo-heading">Vue-Todo</h1>
     <table class="table">
         <thead>
             <tr>
