@@ -133,12 +133,9 @@ export default defineComponent({
             }
         }
 
-        const isFormValid = computed(() => {
-            if (todoItem?.value?.title?.length && todoItem?.value?.dueDate) {
-                return true;
-            }
-            return false;
-        });
+        const isFormValid = computed(
+            () => todoItem.value.title.length && todoItem.value.dueDate
+        );
 
         const submit = () => {
             if (todoItem.value) {
